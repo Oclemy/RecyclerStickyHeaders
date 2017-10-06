@@ -1,0 +1,56 @@
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\Hp\AppData\Local\Android\sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2602Library
+:app:prepareComAndroidSupportAppcompatV72602Library
+:app:prepareComAndroidSupportCardviewV72602Library
+:app:prepareComAndroidSupportConstraintConstraintLayout100Alpha7Library
+:app:prepareComAndroidSupportDesign2602Library
+:app:prepareComAndroidSupportRecyclerviewV72602Library
+:app:prepareComAndroidSupportSupportCompat2602Library
+:app:prepareComAndroidSupportSupportCoreUi2602Library
+:app:prepareComAndroidSupportSupportCoreUtils2602Library
+:app:prepareComAndroidSupportSupportFragment2602Library
+:app:prepareComAndroidSupportSupportMediaCompat2602Library
+:app:prepareComAndroidSupportSupportV42602Library
+:app:prepareComAndroidSupportSupportVectorDrawable2602Library
+:app:prepareComAndroidSupportTransition2602Library
+:app:prepareComGithubJaychang0917SimpleRecyclerView120Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 53.404 secs
